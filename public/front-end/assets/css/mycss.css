@@ -1,0 +1,529 @@
+/* This is for Read More and Read Less */
+.read-more-content {
+  display: none;
+}
+.read-more {
+  display: inline-block;
+  margin-top: 8px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.timeline-info {
+  position: relative;
+  background: #f3f1f1;
+  padding: 24px 20px 18px;
+  margin-bottom: 12px;
+  border: 1px solid #f3f1f1;
+  border-radius: 8px;
+  margin-left: 54px;
+}
+
+#hotel-price-sidebar {
+  margin-top: 20px;
+}
+
+#hotel-price-sidebar p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+#style1 {
+  color: green;
+}
+
+#space-left {
+  margin-left: 30px;
+}
+
+#hotel-detail-header {
+  background-color: #1d659717;
+  padding: 20px;
+  color: #000;
+}
+
+#hotel-detail-header p {
+  color: #000;
+  font-weight: bold;
+}
+
+#padding-all {
+  padding: 0 30px;
+}
+
+#form-title {
+  color: #333333;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 10px;
+}
+
+.header-media-radio {
+  background-color: #1d659723 !important;
+  color: #ffffff;
+  padding: 10px 0;
+  color: #333333;
+  border-radius: 10px;
+}
+
+/*input file with icon*/
+.filelabel {
+  width: 100%;
+  border-radius: 5px;
+  display: block;
+  padding: 5px;
+  transition: border 300ms ease;
+  cursor: pointer;
+  text-align: center;
+  margin: 0;
+  height: 180px;
+  background-color: #1d659723;
+}
+.filelabel i {
+  display: block;
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+.filelabel i,
+.filelabel .title {
+  color: grey;
+  transition: 200ms color;
+}
+.filelabel:hover {
+  border: 2px dashed #1d6597;
+}
+.filelabel:hover i,
+.filelabel:hover .title {
+  color: #1d6597;
+}
+#FileInput {
+  display: none;
+}
+
+#textarea {
+  height: 200px !important;
+}
+
+.p-t-100 {
+  padding-top: 40px;
+}
+
+#mobile-hide-show {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  #mobile-hide-show {
+    display: inline-block;
+  }
+}
+
+/* pagination */
+a {
+  text-decoration: none;
+}
+.text-info {
+  color: #1d6597;
+}
+.HotelList ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.HotelList ul li {
+  display: inline-block;
+  width: 100%;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.HotelBox {
+  border: 1px solid #ddd;
+  color: #333;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 20px;
+  background-color: #f5f5f5;
+}
+/*Pagination CSS*/
+#page_navigation {
+  clear: both;
+  margin: 20px 0;
+}
+#page_navigation a {
+  padding: 3px 6px;
+  border: 1px solid #1d6597;
+  margin: 2px;
+  color: black;
+  text-decoration: none;
+  padding: 2px 8px;
+  margin: 0 6px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.active_page {
+  background: #1d6597;
+  color: white !important;
+}
+
+.page_link {
+  color: #1d6597;
+}
+
+#add-room-remove-btn {
+  font-size: 30px;
+  color: #1d6597;
+}
+
+#horizontal-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#horizontal-list li {
+  width: 250px !important;
+}
+
+/*Multi Steps form (hotel-member)*/
+
+#heading {
+  text-transform: uppercase;
+  color: #1d6597;
+  font-weight: normal;
+}
+
+#msform {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+#msform fieldset {
+  background: white;
+  border: 0 none;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-card {
+  text-align: left;
+}
+
+#msform fieldset:not(:first-of-type) {
+  display: none;
+}
+
+#msform input:focus,
+#msform textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+
+  outline-width: 0;
+}
+
+#msform .action-button {
+  width: 100px;
+  background: #1d6597;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 0px 10px 5px;
+  float: right;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+  background-color: #f0aa32;
+}
+
+#msform .action-button-previous {
+  width: 100px;
+  background: #616161;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px 10px 0px;
+  float: right;
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+  background-color: #000000;
+}
+
+.card {
+  z-index: 0;
+  border: none;
+  position: relative;
+}
+
+.fs-title {
+  font-size: 25px;
+  color: #1d6597;
+  margin-bottom: 15px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.purple-text {
+  color: #1d6597;
+  font-weight: normal;
+}
+
+.steps {
+  color: #1d6597;
+  margin-bottom: 10px;
+  font-weight: normal;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.fieldlabels {
+  color: gray;
+  text-align: left;
+}
+
+#progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+  color: lightgrey;
+}
+
+#progressbar .active {
+  color: #1d6597;
+}
+
+#progressbar li {
+  list-style-type: none;
+  font-size: 15px;
+  width: 14%;
+  float: left;
+  position: relative;
+  font-weight: 400;
+}
+
+#progressbar #account:before {
+  font-family: FontAwesome;
+  content: "\f13e";
+}
+
+#progressbar #personal:before {
+  font-family: FontAwesome;
+  content: "\f007";
+}
+
+#progressbar #payment:before {
+  font-family: FontAwesome;
+  content: "\f030";
+}
+
+#progressbar #confirm:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+
+#progressbar li:before {
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+  background: lightgray;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+  padding: 2px;
+}
+
+#progressbar li:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: lightgray;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 480px) {
+  #progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 30%;
+    position: relative;
+    font-weight: 400;
+  }
+
+  #progressbar strong {
+    font-size: 12px;
+  }
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: #1d6597;
+}
+
+.progress {
+  height: 20px;
+}
+
+.progress-bar {
+  background-color: #1d6597;
+}
+
+.fit-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* .form-card {
+    padding: 20px 0;
+}  */
+
+/*MULTI STEPS FORM*/
+#select-hotel-type .card {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#become-member input[type="text"] {
+  background-color: #ffffff !important;
+}
+
+#become-member input[type="number"] {
+  background-color: #ffffff !important;
+}
+
+#become-member textarea {
+  background-color: #ffffff !important;
+}
+/* 
+ 
+
+ #become-member select{
+    background-color: #1d659723 !important;
+ }
+
+ #become-member input[type="time"]{
+    background-color: #1d659723 !important;
+ }
+
+ #become-member input[type="password"]{
+    background-color: #1d659723 !important;
+ } */
+
+#select-hotel-type .card h3 {
+  border: 0;
+}
+
+#select-hotel-type .card h3::after {
+  width: 0;
+  height: 0;
+}
+
+#select-hotel-type .card #icon {
+  color: #1d6597;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+
+#select-hotel-type .card h3 {
+  color: #333333;
+}
+
+#select-hotel-type .card p {
+  padding-top: 10px;
+}
+
+.item input[type="radio"] {
+  display: none;
+}
+
+.item.selected h3 {
+  color: #1d6597 !important;
+}
+
+.item.selected .card {
+  border: 1px solid #1d6597;
+}
+
+#cancellation-policy .card {
+  /* border: 1px solid #33333323; */
+  background-color: #ffffff;
+  padding: 30px 40px;
+}
+
+#cancellation-policy .card input[type="radio"] {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+#cancellation-policy .card p {
+  padding-top: 0px;
+}
+
+#cancellation-policy-padding {
+  padding-top: 1px dashed #1d6597 !important;
+}
+
+#cancellation-policy h3::after {
+  width: 0;
+  height: 0;
+}
+
+#cancellation-policy .card {
+  border-radius: 10px;
+}
+
+#cancellation-policy h3 {
+  border: 0;
+}
+
+#room-info {
+  padding: 10px 0;
+}
+
+#logo-second {
+  display: none;
+}
+
+
+/* This style used for navigation logo change  */
+#logo-first,
+#logo-third {
+  display: block;
+}
+#logo-second{
+  display: none;
+}
+
+body.scrolled #logo-first,
+body.scrolled #logo-third {
+  display: none;
+}
+body.scrolled #logo-second,
+body.scrolled #logo-four {
+  display: block;
+}

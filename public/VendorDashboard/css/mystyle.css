@@ -1,0 +1,73 @@
+.hover-line {
+  border-bottom: 1px solid #000;
+  color: #000;
+}
+
+.border-top {
+  border-top: 1px solid #000;
+}
+
+#fix-image {
+  height: 200px;
+}
+
+#card-relative {
+  position: relative;
+}
+
+.booking-info-btn {
+  position: absolute;
+  right: 2%;
+  top: 0;
+}
+
+#my-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #e8e8e8;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+#table-head {
+  background-color: #8b3eea;
+}
+
+#dash-icon i {
+  font-size: 24px;
+  color: #8b3eea;
+  padding-top: 20px;
+}
+
+#dash-icon .card-body:hover i {
+  color: #fff;
+}
+
+.breadcrumb .active a {
+  color: #8b3eea !important;
+}
+
+.DZ-theme-btn.DZ-bt-support-now {
+  display: none;
+}
+
+.DZ-theme-btn.DZ-bt-buy-now {
+  display: none;
+}
+
+#booking-tab-listing {
+  height: auto !important;
+  padding-bottom: 100px;
+}
+
+#select-padding{
+  height:auto;
+}

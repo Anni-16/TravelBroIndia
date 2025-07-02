@@ -1,0 +1,54 @@
+:root {
+  --main-color: #8b3eea;
+}
+
+/* Start Jquery datatable edit */
+button.current,
+div.dt-container .dt-paging .dt-paging-button.current:hover {
+  background-color: #ed3615 !important;
+  border-radius: 20px;
+}
+
+div.dt-container .dt-paging .dt-paging-button.current,
+div.dt-container .dt-paging .dt-paging-button.current:hover {
+  border-radius: 4px;
+  color: #ffffff !important;
+}
+
+div.dt-container .dt-paging .dt-paging-button.disabled,
+div.dt-container .dt-paging .dt-paging-button.disabled:hover,
+div.dt-container .dt-paging .dt-paging-button.disabled:active {
+  border: 1px solid #ed3515 !important;
+}
+
+div.dt-container .dt-paging .dt-paging-button.disabled,
+div.dt-container .dt-paging .dt-paging-button.disabled:hover,
+div.dt-container .dt-paging .dt-paging-button.disabled:active {
+  color: #fff !important;
+}
+
+div.dt-container .dt-paging .dt-paging-button {
+  border: 1px solid #ed3515 !important;
+  color: #fff !important;
+}
+
+div.dt-container .dt-paging .dt-paging-button:hover {
+  border: 1px solid #ed3515 !important;
+  color: #fff !important;
+}
+
+table.dataTable th.dt-type-numeric,
+table.dataTable th.dt-type-date,
+table.dataTable td.dt-type-numeric,
+table.dataTable td.dt-type-date {
+  text-align: left;
+}
+
+.text-white {
+  color: #fff !important;
+}
+/* end Jquery datatable edit */
+
+
+
+
