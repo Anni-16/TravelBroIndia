@@ -1,0 +1,135 @@
+.hover-line {
+  border-bottom: 1px solid #000;
+  color: #000;
+}
+
+.border-top {
+  border-top: 1px solid #000;
+}
+
+#fix-image {
+  height: 200px;
+}
+
+#card-relative {
+  position: relative;
+}
+
+.booking-info-btn {
+  position: absolute;
+  right: 2%;
+  top: 0;
+}
+
+#my-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #e8e8e8;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+#table-head {
+  background-color: #8b3eea;
+}
+
+#dash-icon i {
+  font-size: 24px;
+  color: #8b3eea;
+  padding-top: 20px;
+}
+
+#dash-icon .card-body:hover i {
+  color: #fff;
+}
+
+.breadcrumb .active a {
+  color: #8b3eea !important;
+}
+
+.DZ-theme-btn.DZ-bt-support-now {
+  display: none;
+}
+
+.DZ-theme-btn.DZ-bt-buy-now {
+  display: none;
+}
+
+#boking-tab-listing {
+  height: auto !important;
+  padding-bottom: 100px;
+}
+
+#select-padding{
+  height:auto;
+}
+
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: var(--primary);
+  color: #fff !important;
+}
+
+
+* Multi step form with page redirect */ 
+                           .nav-wizard {
+                           display: flex;
+                           justify-content: space-between;
+                           list-style: none;
+                           padding: 0;
+                           margin: 50px 0 0;
+                           position: relative;
+                           }
+                           .nav-wizard::before {
+                           content: '';
+                           position: absolute;
+                           top: 30px;
+                           left: 0;
+                           right: 0;
+                           height: 2px;
+                           background: #8b3eea;
+                           z-index: 0;
+                           }
+                           .step {
+                           text-align: center;
+                           flex: 1;
+                           position: relative;
+                           z-index: 1;
+                           }
+                           .circle {
+                           display: inline-block;
+                           width: 40px;
+                           height: 40px;
+                           line-height: 38px;
+                           border-radius: 50%;
+                           border: 2px solid #8b3eea;
+                           color: #8b3eea;
+                           font-weight: bold;
+                           background-color: #fff;
+                           position: relative;
+                           z-index: 2;
+                           }
+                           .step.active .circle {
+                           background-color: #8b3eea;
+                           color: #fff;
+                           }
+                           .step h4 {
+                           margin-top: 8px;
+                           font-size: 14px;
+                           }
+                           a.nav-link {
+                           text-decoration: none;
+                           color: inherit;
+                           }
+                           .form-btn{
+                           display: flex;
+                           justify-content: right;
+                           }
